@@ -3,7 +3,6 @@ package com.beecrowd.c01_begginer.n1003;
 import java.util.Scanner;
 
 public class SimpleSum {
-
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
