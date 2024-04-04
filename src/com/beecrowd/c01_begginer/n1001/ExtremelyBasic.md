@@ -27,11 +27,11 @@ Obs.: don't forget the endline after all.
 
 ### E.g.
 
-| Samples Sample | Samples Output |
-|----------------|----------------|
-| 10  <br/>  9   | X = 19         |
-| -10 <br/>  4   | X = -6         |
-| 15  <br/> -7   | X = 8          |
+| Input Samples | Output Samples |
+|---------------|----------------|
+| 10  <br/>  9  | X = 19         |
+| -10 <br/>  4  | X = -6         |
+| 15  <br/> -7  | X = 8          |
 
 ### Source Code
 
