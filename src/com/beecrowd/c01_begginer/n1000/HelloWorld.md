@@ -22,14 +22,10 @@ This problem has **no input**.
 You must print the message **Hello World!** and then the endline as shown below.
 
 ### E.g.
-**Input Sample**
-```plaintext
-no input
-```
-**Output Sample**
-```plaintext
-Hello World!
-```
+
+| Input Sample | Output Sample  |
+|--------------|----------------|
+| no input     | `Hello World!` |
 
 ### Source Code
 ```java
