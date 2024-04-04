@@ -6,7 +6,7 @@
 > 1. [x]  Base Time Limit: 1 second
 > 2. [x]  Memory Limit: 200 Mb
 > 
-> Link: [Access here!](https://judge.beecrowd.com/en/problems/index/1)
+> Link: [Access here!](https://judge.beecrowd.com/en/problems/view/1000)
 
 ## Description
 Your first program in any programming language is usually **"Hello World!"**. In this first problem all you have to do is print this message on the screen.
