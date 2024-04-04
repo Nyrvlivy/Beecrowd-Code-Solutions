@@ -21,11 +21,11 @@ Present the message "A=" followed by the value of the variable, as in the exampl
 point. Use all double precision variables. Like all the problems, don't forget to print the end of line after the result, otherwise you will receive "Presentation Error".
 
 ### E.g.
-| Samples Sample | Samples Output |
-|----------------|----------------|
-| 2.00           | A=12.5664      |
-| 100.64         | A=31819.3103   |
-| 150.00         | A=70685.7750   |
+| Input Samples | Output Samples |
+|---------------|----------------|
+| 2.00          | A=12.5664      |
+| 100.64        | A=31819.3103   |
+| 150.00        | A=70685.7750   |
 
 
 
