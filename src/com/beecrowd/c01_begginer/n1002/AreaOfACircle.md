@@ -1,4 +1,4 @@
-# 1001 - Extremely Basic
+# 1002 - Area of a Circle
 
 ## Information
 > Beginner - Level 4
