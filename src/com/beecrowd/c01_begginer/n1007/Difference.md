@@ -1,4 +1,4 @@
-# 1007 - Average 2
+# 1007 - Difference
 
 ## Information
 > Beginner - Level 1
