@@ -6,7 +6,7 @@
 > 1. [x]  Base Time Limit: 1 second
 > 2. [x]  Memory Limit: 200 Mb
 > 
-> Link: [Access here!](https://judge.beecrowd.com/en/problems/view/1002)
+> Link: [Access here!](https://judge.beecrowd.com/en/problems/view/1003)
 
 ## Description
 Read two integer values, in this case, the variables A and B. After this, calculate the sum between them and assign it to the variable **SOMA**. Write the value of this variable.
