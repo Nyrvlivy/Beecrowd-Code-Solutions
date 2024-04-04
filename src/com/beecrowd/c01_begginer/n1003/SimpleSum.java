@@ -10,9 +10,9 @@ public class SimpleSum {
         int A = scanner.nextInt();
         int B = scanner.nextInt();
 
-        int SOMA = A + B;
+        int sum = A + B;
 
-        System.out.printf("SOMA = %d%n", SOMA);
+        System.out.printf("SOMA = %d%n", sum);
 
     }
 }
