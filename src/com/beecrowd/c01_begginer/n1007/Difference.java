@@ -13,8 +13,8 @@ public class Difference {
         int D = scanner.nextInt();
         scanner.close();
 
-        int DIFERENCA = (A * B) - (C * D);
+        int difference = (A * B) - (C * D);
 
-        System.out.printf("DIFERENCA = %d%n", DIFERENCA);
+        System.out.printf("DIFERENCA = %d%n", difference);
     }
 }
