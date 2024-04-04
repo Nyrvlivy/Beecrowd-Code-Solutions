@@ -1,7 +1,7 @@
-# 1001 - Extremely Basic
+# 1003 - Simple Sum
 
 ## Information
-> Beginner - Level 4
+> Beginner - Level 1
 > 
 > 1. [x]  Base Time Limit: 1 second
 > 2. [x]  Memory Limit: 200 Mb
