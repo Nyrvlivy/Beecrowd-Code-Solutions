@@ -7,10 +7,10 @@ public class Average1 {
 
         Scanner scanner = new Scanner(System.in);
 
-        double A = (scanner.nextDouble()) * 3.5;
-        double B = (scanner.nextDouble()) * 7.5;
+        double A = (scanner.nextDouble());
+        double B = (scanner.nextDouble());
 
-        double MEDIA = (A + B) / 11;
+        double MEDIA = ((A * 3.5) + (B * 7.5)) / 11;
 
         System.out.printf("MEDIA = %.5f%n", MEDIA);
     }
