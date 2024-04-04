@@ -10,9 +10,9 @@ public class SimpleProduct {
         int A = scanner.nextInt();
         int B = scanner.nextInt();
 
-        int PROD = A * B;
+        int prod = A * B;
 
-        System.out.printf("PROD = %d%n", PROD);
+        System.out.printf("PROD = %d%n", prod);
 
     }
 }
