@@ -4,23 +4,24 @@ import java.util.Scanner;
 
 public class SimpleCalculate {
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
-        String data = scanner.useDelimiter("\\A").next();
-        scanner.close();
 
-        String[] products = data.split("\\s*\\n\\s*");
+        double total = 0.0;
 
-        double total = 0;
+        while (scanner.hasNextLine()) {
+            String product = scanner.nextLine();
 
-        for (String product : products) {
-            String[] field = product.split(" ");
-            int quantity = Integer.parseInt(field[1]);
-            double price = Double.parseDouble(field[2]);
+            if (product.isEmpty()) {
+                break;
+            }
+            String[] parts = product.split(" ");
+            int quantity = Integer.parseInt(parts[1]);
+            double price = Double.parseDouble(parts[2]);
 
             total += quantity * price;
         }
 
-        System.out.printf("VALOR A PAGAR: R$ %.2f\n", total);
+        System.out.printf("VALOR A PAGAR: R$ %.2f%n", total);
+        scanner.close();
     }
 }
