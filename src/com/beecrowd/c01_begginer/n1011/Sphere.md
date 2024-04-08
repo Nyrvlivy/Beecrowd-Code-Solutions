@@ -1,28 +1,29 @@
-# 1010 - Simple Calculate
+# 1011 - Simple Calculate
 
 ## Information
-> Beginner - Level 3
+> Beginner - Level 2
 > 
 > 1. [x]  Base Time Limit: 1 second
 > 2. [x]  Memory Limit: 200 Mb
 > 
-> Link: [Access here!](https://judge.beecrowd.com/en/problems/view/1010)
+> Link: [Access here!](https://judge.beecrowd.com/en/problems/view/1011)
 
 ## Description
-In this problem, the task is to read a code of a product 1, the number of units of product 1, the price for one unit of product 1, the code of a product 2, the number of units of product 2 and the price for one unit of product 2. After this, calculate and show the amount to be paid.
+Make a program that calculates and shows the volume of a sphere being provided the value of its radius (**R**) . The formula to calculate the volume is: $(4/3) * pi * R³$. Consider (assign) for pi the value 3.14159.
+Tip: _Use (4/3.0) or (4.0/3) in your formula_, because some languages (including C++) assume that the division's result between two integers is another integer. :)
 
 ### Input
-The input file contains two lines of data. In each line there will be 3 values: two integers and a floating value with 2 digits after the decimal point.
+The input contains a value of floating point (double precision).
 
 ### Output
-The output file must be a message like the following example where "Valor a pagar" means **Value to Pay**. Remember the space after ":" and after "R$" symbol. The value must be presented with 2 digits after the point.
+The output must be a message "VOLUME" like the following example with a space before and after the equal signal. The value must be presented with 3 digits after the decimal point.
 
 ### E.g.
-| Input Samples               | Output Samples          |
-|-----------------------------|-------------------------|
-| 12 1 5.30  <br/> 16 2 5.10  | VALOR A PAGAR: R$ 15.50 |
-| 13 2 15.30 <br/> 161 4 5.20 | VALOR A PAGAR: R$ 51.40 |
-| 1 1 15.10  <br/> 2 1 15.10  | VALOR A PAGAR: R$ 30.20 |
+| Input Samples | Output Samples           |
+|---------------|--------------------------|
+| 3             | VOLUME = 113.097         |
+| 15            | VOLUME = 14137.155       |
+| 1523          | VOLUME = 14797486501.627 |
 
 ### Source Code
 ```java
